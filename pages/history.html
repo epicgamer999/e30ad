@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../media/Scrollfavicon-16x16.png" type="image/png" sizes="16x16">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">   
+    <title>History</title>
+<style>
+    #strip1{
+        background-color: white;
+        padding-top: 1px;
+        padding-bottom: 150px;
+    }
+
+    #strip1Heading{
+        text-align: center;
+        margin-bottom: 5px;
+        font-size: 350%;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 800;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    #strip1Inner{
+        width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 105%;
+    }
+ 
+    .histList li{
+        color: #000000;
+        line-height: 200%;
+        font-size: 100%;
+        font-family:'Roboto Condensed', sans-serif;
+    }
+
+    .line1{
+        border: 5px solid #000000;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .line2{
+        border: 7px solid #BC9B5D;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    
+    #bmwLogo1{
+        float: left;
+        margin-left: 200px;
+        margin-top: 0px;
+    }
+
+    #bmwLogo2{
+        float: right;
+        margin-right: 200px;
+        margin-top: 0px;
+    }
+
+    #strip2{
+        background-color: #385061;
+        padding-top: 50px;
+        padding-bottom: 150px;
+        margin-left: 200px;
+    }
+
+    #strip2Heading{
+        text-align: center;
+        margin-bottom: 5px;
+        font-size: 350%;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 800;
+        color: #000000;
+        text-decoration: none;
+        padding-top: 0px;
+    }
+
+    #strip2Inner{
+        width: 600px;
+        background-color: #BC9B5D;
+        /*opacity: 0.7;*/
+        float: right;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: #ffffff;
+        margin-right: 50px;
+    }
+
+    #dtmM3{
+        float:left;
+    }
+
+    #bodyStylesHeading{
+        padding-top: 120px;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: #ffffff;
+        font-size: 400%;
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+    }
+
+    .sedanE30{
+        margin-bottom: 10px;
+    }
+
+    .WagonE30{
+        margin-left: 260px;
+        margin-bottom: 0px;
+        margin-bottom: 10px;
+    }
+
+    .vertE30{
+        margin-left: 200px;
+        margin-bottom: 10px;
+    }
+
+    #sedanHead{
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 800;
+        color: #ffffff;
+        padding-bottom: 0px;
+    }
+
+    #sedanDes{
+        display: inline-block;
+        background-color: #BC9B5D;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: #000000;
+        width: 390px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .sedanInfo li{
+        color: #000000;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 100%;
+    }
+
+    .line3{
+        border: 3px solid #000000;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    #wagonHead{
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 800;
+        color: #ffffff;
+        padding-bottom: 0px;
+    }
+
+    #wagonDes{
+        display: inline-block;
+        margin-left: 260px;
+        background-color: #BC9B5D;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: #000000;
+        width: 390px;
+        padding-top: 0px;
+    }
+
+    .wagonInfo li{
+        color: #000000;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 100%;
+    }
+
+    .line4{
+        border: 3px solid #000000;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    #vertHead{
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 800;
+        color: #ffffff;
+        padding-bottom: 0px;
+    }
+
+    #vertDes{
+        display: inline-block;
+        margin-left: 200px;
+        background-color: #BC9B5D;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: #000000;
+        width: 390px;
+        padding-top: 0px;
+    }
+
+    .vertInfo li{
+        color: #000000;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 100%;
+    }
+
+    .line5{
+        border: 3px solid #000000;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <a href="../index.html">
+        <img class="logo" src="../images/Logo.png" width="118px" height="90px" alt="logo">
+    </a>
+    <ul class="navbar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">History</a></li>
+        <!-- <li><a href="mods.html">Popular Modifications</a></li> -->
+        <li><a href="community.html">Community</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</header>
+
+<div id="strip1">
+    <h1 id="strip1Heading">A Breif History</h1>
+    <hr class="line1">
+
+    <img id="bmwLogo1" src="../images/bmwLogo.png" width="150px" height="150px" alt="Image of the BMW Logo"/>
+    <img id="bmwLogo2" src="../images/bmwLogo.png" width="150px" height="150px" alt="Image of the BMW Logo"/>
+
+    <div id="strip1Inner">
+        <ul class="histList">
+            <li>During its 12 year production run over 2 million BMW E30's were produced worldwide.<br><br></li>
+            <li>This included 4 body styles and 5 models for the USA. Ranging from the 318i four cylinder 
+                to the 325ix 6 cylinder all wheel drive model.<br><br></li>
+            <li>The E30 is most known for the E30 M3. This was the first official "M"car produced by BMW. 
+                The M stands for Motorsport and the M3 had a four cylinder that produced 235hp.<br><br></li>
+            <li>The M3 was very successful on the track against competitors such as Mercedes Benz. It went
+                 on to win 10 championships in a span of 3 years.</li>
+        </ul>
+    </div><!-- end of strip1Inner div-->
+
+
+</div><!-- end of strip1 div-->
+
+<hr class="line2">
+
+<div id="strip2">
+    <img class="dtmM3" src="../images/dtmM3.png" border="10px" width="750"  height="400" alt="Image of DTM Race BMW M3">
+
+    <div id="strip2Inner">
+       
+        <h1 id="strip2Heading">DTM RACE M3</h1>
+        
+        <ul class="M3List">
+            <li>The E30 M3 competed in many forms of motorsport and was highly successful in touring car racing.<br><br></li>
+            <li>In full race trim, the 1988 M3's 2.3L naturally aspirated engine was rated at approximately 296 hp.<br><br></li>
+            <li>The E30 M3 won the 24 Hours Nürburgring five times (1989, 1990, 1991, 1992 and 1994) and the 
+                Spa 24 Hours four times (1987, 1988, 1990 and 1992), often competing against cars with significantly 
+                larger or turbocharged engines.<br><br></li>
+        </ul>
+    </div><!-- end of strip2Inner div-->
+
+    <h1 id="bodyStylesHeading">BODY STYLES</h1>
+    
+    <img class="sedanE30" src="../images/sedanE30.png" border="10px" alt="Image of sedan bmw e30">
+
+    <img class="WagonE30" src="../images/wagonE30.png" border="10px"  alt="Image of station wagon bmw e30">
+
+    
+
+    <img class="vertE30" src="../images/vertE30.png" border="10px"  alt="Image of convertible bmw e30">
+    
+        <div id="sedanDes">
+            <h1 id="sedanHead">E30 SEDAN</h1>
+            <hr class="line3">
+            <ul class="sedanInfo">
+                <li>Built from 1982 to 1991<br><br></li>
+                <li>Available in the 318i, 325i & 325ix & manual or automatic transmissions<br><br></li>
+                <li>Not as desirable by enthusiasts as the coupe model<br><br></li>
+            </ul>
+        </div><!--end of sedanDes div-->
+
+        <div id="wagonDes">
+            <h1 id="wagonHead">E30 WAGON</h1>
+            <hr class="line4">
+            <ul class="wagonInfo">
+                <li>Built from 1987 to 1989<br><br></li>
+                <li>Available in the 318i, 325i & 325ix & manual or automatic transmissions<br><br></li>
+                <li>Highly desirable, only made in select European countries..<br><br></li>
+            </ul>
+
+        </div><!--end of wagonDes div-->
+
+        <div id="vertDes">
+            <h1 id="vertHead">E30 CONVERTIBLE</h1>
+            <hr class="line5">
+            <ul class="vertInfo">
+                <li>Built from 1988 to 1994<br><br></li>
+                <li>Available in the 318i, 325i & 325ix & manual or automatic transmissions<br><br></li>
+                <li>Less desirable than the coupe, but still loved by enthusiasts.<br><br></li>
+            </ul>
+
+        </div><!--end of vertDes div-->
+
+</div><!--end of strip2 div-->
+
+<hr class="footerLine">
+<footer>
+
+</footer>
+
+</body>
+</html>
